@@ -1,0 +1,18 @@
+/serverless-website
+  ├── frontend/             # Static Website (Hosted on S3)
+  │   ├── index.html        # Home Page
+  │   ├── styles.css        # CSS Styling
+  │   ├── script.js         # JavaScript (API Calls)
+  │
+  ├── backend/              # AWS Lambda Functions
+  │   ├── getData.js        # Fetch Data from DynamoDB
+  │   ├── saveData.js       # Save Data to DynamoDB
+  │   ├── package.json      # Node.js Dependencies
+  │
+  ├── database/             # DynamoDB Table Setup
+  │   ├── schema.json       # Table Schema
+  │
+  ├── deployment/           # Deployment Scripts
+  │   ├── deploy.sh         # Automate AWS Setup
+  │
+  ├── README.md             # Project Overview
